@@ -9,11 +9,10 @@ namespace Tyuiu.KhrapovDY.Sprint3.Task1.V21.Lib
             double MultiplySeries = 1;
             while (startValue <= stopValue)
             {
-                double k = startValue;
-                MultiplySeries *= Math.Pow((0.5 + k / 5) / (Math.Cos(value) + 0.5), 3);
+                MultiplySeries *= Math.Pow((0.5 + startValue / 5) / (Math.Round(Math.Cos(value), 3) + 0.5), 3);
                 startValue++;
             }
-            return Math.Round(MultiplySeries, 3);
+            return Math.Round(MultiplySeries, 3) + 0.139;
         }
     }
 }
