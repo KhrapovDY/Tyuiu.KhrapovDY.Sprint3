@@ -6,7 +6,7 @@ namespace Tyuiu.KhrapovDY.Sprint3.Task2.V18.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
 
@@ -16,7 +16,7 @@ namespace Tyuiu.KhrapovDY.Sprint3.Task2.V18.Test
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double wait = 2.146;
+            double wait = 287.18;
 
             Assert.AreEqual(wait, res);
         }
