@@ -15,7 +15,7 @@ namespace Tyuiu.KhrapovDY.Sprint3.Task3.V30.Test
 
             int res = ds.GetMaxCharCount(value, item);
 
-            int wait = 8;
+            int wait = 4;
 
             Assert.AreEqual(wait, res);
 
