@@ -11,14 +11,14 @@ namespace Tyuiu.KhrapovDY.Sprint3.Task4.V15.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
                     res *= ((Math.Sin(x) + x) / x) + 0.75;
                 }
             }
-            return Math.Round(res, 2);
+            return Math.Round(res, 3);
         }
     }
 }
