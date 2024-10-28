@@ -36,7 +36,7 @@ namespace Tyuiu.KhrapovDY.Sprint3.Task6.V24
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                        *");
             Console.WriteLine("*************************************************************************************");
 
-            Console.WriteLine("Сумма делителей = " + ds.GetSumTheDivisors(startValue, stopValue));
+            Console.WriteLine("Количество делителей = " + ds.GetSumTheDivisors(startValue, stopValue));
 
             Console.ReadKey();
         }
